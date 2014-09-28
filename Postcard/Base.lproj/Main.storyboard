@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wzO-Bg-vRu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tmw-7H-ap5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-rv-Jjt">
@@ -103,6 +104,15 @@
                                     <rect key="frame" x="16" y="72" width="334" height="115"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spN-zW-7o2">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="195" width="242" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +122,7 @@
                                 <exclude reference="oZB-hq-Uw5"/>
                                 <exclude reference="mpY-Ah-y8n"/>
                                 <exclude reference="zov-i7-Ezl"/>
+                                <exclude reference="spN-zW-7o2"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +132,7 @@
                                 <include reference="oZB-hq-Uw5"/>
                                 <include reference="mpY-Ah-y8n"/>
                                 <include reference="zov-i7-Ezl"/>
+                                <include reference="spN-zW-7o2"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="00l-5X-my4" id="fCt-35-yAA"/>
                         <outlet property="mailButton" destination="mpY-Ah-y8n" id="b9d-mS-ike"/>
                         <outlet property="messageLabel" destination="zov-i7-Ezl" id="VpL-P8-pDf"/>
+                        <outlet property="nameLabel" destination="spN-zW-7o2" id="eyy-wN-kEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
